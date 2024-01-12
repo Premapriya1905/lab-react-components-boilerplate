@@ -1,11 +1,11 @@
 import React from 'react'
 
 const Main=(props)=>{
-    const{imageData}=props
+    const {imageData}=props
     console.log(imageData)
     return (
         <div>
-            {
+        {
           imageData.map(image=>{
             return(
               <div key={image.id} className="column">
